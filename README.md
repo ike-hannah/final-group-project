@@ -14,7 +14,7 @@ This dataset includes game data from 1966 to 2022 and includes the following pro
 * score home - final score for home team
 * score away - final score of away team
 * team away - away (visting team name)
-* team favorite id - 
+* team favorite id - three letter abbreviation of team favored to win
 * spread favorite - team favored to win
 * over under line - over/under betting spread of game
 * stadium - stadium name in which game was played
