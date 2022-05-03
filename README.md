@@ -1,7 +1,8 @@
 # final-group-project
 # machine learning
 
-# Overview of Final Project
+
+## Overview of Final Project
 The goal of our project is to create a process that will help determine outcome of NFL games based upon the weather. 
 Using the data collected, from kaggle (https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data),  we will be able to determine who is favored to win, based the weather conditions during the game.
 This dataset includes game data from 1966 to 2022 and includes the following properties:
@@ -24,4 +25,9 @@ This dataset includes game data from 1966 to 2022 and includes the following pro
 * weather detail - indicator on how weather impact teams (e.g. if they played in a dome or not)
 
 We will validate the data to see if there are fields and records that we can remove, if they are incomplete. 
+
 Since, this data also includes betting data information, that will also be used in our analysis in helping determine the winner of the games.
+
+## Linear Regression Model
+For the purposes of our machine learning model, we opted to utilize a linear regression model. Most simply stated, linear regression is the comparison of relationship between two variables to identify a change in outcome. In our case, the purpose is to attempt to identify an effect of weather upon the outcome of NFL scores. The weather, as measured in degrees Fahrenheit, is our presumed explanatory variable, while total points scored in a game is our dependent variable. Creating a linear model will allow us to catch outliers in our data set and detect the overall trend of the dataset. 
+
