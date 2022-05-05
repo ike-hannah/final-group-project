@@ -32,9 +32,43 @@ Since, this data also includes betting data information, that will also be used 
 For the purposes of our machine learning model, we opted to utilize a linear regression model. Most simply stated, linear regression is the comparison of relationship between two variables to identify a change in outcome. In our case, the purpose is to attempt to identify an effect of weather upon the outcome of NFL scores. The weather, as measured in degrees Fahrenheit, is our presumed explanatory variable, while total points scored in a game is our dependent variable. Creating a linear model will allow us to catch outliers in our data set and detect the overall trend of the dataset. 
 
 ## PostgreSQL Database
-For our database with this assignment, we will be using PostgreSQL and our table schema will look like the below screenshot: 
+For our database with this assignment, we will be using PostgreSQL and our table schema will look like the below query code: 
 
-![image](https://user-images.githubusercontent.com/95515322/166392709-0787c4ec-0295-49bb-aea3-07a7855e9a1d.png)
+CREATE TABLE NFL_Schedule_Data (
+	schedule_date DATE,
+	team_home TEXT,
+	team_away TEXT,
+	schedule_season INTEGER,
+	schedule_playoff BOOLEAN,
+	weather_temperature FLOAT,
+	weather_wind_mph FLOAT,
+	weather_humidity FLOAT,
+	weather_detail TEXT
+);
+
+CREATE TABLE Gambling_Data (
+	team_home TEXT,
+	score_home FLOAT,
+	score_away FLOAT,
+	team_away TEXT,
+	team_favorite_id TEXT,
+	spread_favorite FLOAT,
+	over_under FLOAT
+);
+
+CREATE TABLE Stadium_Data (
+	stadium TEXT,
+	stadium_neutral BOOLEAN,
+	team_home TEXT,
+	team_away TEXT
+);
+
+CREATE TABLE Weather_Data (
+	weather_temperature FLOAT,
+	weather_wind_mph FLOAT,
+	weather_humidity FLOAT,
+	weather_detail TEXT
+);
 
 ## Communiction Tool for Team
 We have used slack for communicating ideas within the team.
