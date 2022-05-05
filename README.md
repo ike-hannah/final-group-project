@@ -34,41 +34,7 @@ For the purposes of our machine learning model, we opted to utilize a linear reg
 ## PostgreSQL Database
 For our database with this assignment, we will be using PostgreSQL and our table schema will look like the below query code: 
 
-CREATE TABLE NFL_Schedule_Data (
-	schedule_date DATE,
-	team_home TEXT,
-	team_away TEXT,
-	schedule_season INTEGER,
-	schedule_playoff BOOLEAN,
-	weather_temperature FLOAT,
-	weather_wind_mph FLOAT,
-	weather_humidity FLOAT,
-	weather_detail TEXT
-);
-
-CREATE TABLE Gambling_Data (
-	team_home TEXT,
-	score_home FLOAT,
-	score_away FLOAT,
-	team_away TEXT,
-	team_favorite_id TEXT,
-	spread_favorite FLOAT,
-	over_under FLOAT
-);
-
-CREATE TABLE Stadium_Data (
-	stadium TEXT,
-	stadium_neutral BOOLEAN,
-	team_home TEXT,
-	team_away TEXT
-);
-
-CREATE TABLE Weather_Data (
-	weather_temperature FLOAT,
-	weather_wind_mph FLOAT,
-	weather_humidity FLOAT,
-	weather_detail TEXT
-);
+![image](https://user-images.githubusercontent.com/95515322/166852554-fd183b6d-e2f6-4b3b-a443-bfa229231cff.png)
 
 ## Communiction Tool for Team
 We have used slack for communicating ideas within the team.
