@@ -32,9 +32,9 @@ Since, this data also includes betting data information, that will also be used 
 For the purposes of our machine learning model, we opted to utilize a linear regression model. Most simply stated, linear regression is the comparison of relationship between two variables to identify a change in outcome. In our case, the purpose is to attempt to identify an effect of weather upon the outcome of NFL scores. The weather, as measured in degrees Fahrenheit, is our presumed explanatory variable, while total points scored in a game is our dependent variable. Creating a linear model will allow us to catch outliers in our data set and detect the overall trend of the dataset. 
 
 ## PostgreSQL Database
-For our database with this assignment, we will be using PostgreSQL and our table schema will look like the below screenshot: 
+For our database with this assignment, we will be using PostgreSQL and our table schema will look like the below query code: 
 
-![image](https://user-images.githubusercontent.com/95515322/166392709-0787c4ec-0295-49bb-aea3-07a7855e9a1d.png)
+![image](https://user-images.githubusercontent.com/95515322/166852554-fd183b6d-e2f6-4b3b-a443-bfa229231cff.png)
 
 ## Communiction Tool for Team
 We have used slack for communicating ideas within the team.
