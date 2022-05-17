@@ -42,4 +42,4 @@ We have used slack for communicating ideas within the team.
 * frank_test_branch
 
 ## Dashboard: 
-n/a - in progess
+Link to dashboard: https://public.tableau.com/app/profile/frank.white6742/viz/Final_Project_16523228456870/NFLGameWeatherData
