@@ -43,3 +43,6 @@ We have used slack for communicating ideas within the team.
 
 ## Dashboard: 
 Link to dashboard: https://public.tableau.com/app/profile/frank.white6742/viz/Final_Project_16523228456870/NFLGameWeatherData
+
+## Presentation:
+Link to Google Slides: https://docs.google.com/presentation/d/1p7DLhADu_C2IY3nVesLCM6Ujs5V5rx6aRh2-ExB7Xy0/edit?usp=sharing
