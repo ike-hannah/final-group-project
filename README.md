@@ -4,7 +4,7 @@
 
 ## Overview of Final Project
 The goal of our project is to create a process that will help determine outcome of NFL games based upon the weather. 
-Using the data collected, from kaggle (https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data),  we will be able to determine who is favored to win, based the weather conditions during the game.
+Using the data collected, from kaggle (https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data) and Git (https://github.com/Nolanole/NFL-Weather-Project/blob/master/all_games_weather.csv), we will be able to determine who is favored to win, based the weather conditions during the game.
 This dataset includes game data from 1966 to 2022 and includes the following properties:
 * schedule date - date game was played
 * schedule season - schedule year
