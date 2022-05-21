@@ -1,0 +1,42 @@
+Gameday
+-
+Unique_Identifier int PK FK >- Spreadspoke.Unique_Identifier
+schedule_date text
+schedule_season bigint
+schedule_week text
+schedule_playoff boolean
+team_home text
+score_home float
+score_away float
+team_away text
+team_favorite_id text
+spread_favorite float
+over_under_line float
+stadium text
+stadium_netural boolean
+weather_temperature float
+weather_wind_mph float
+weather_humidity float
+weather_detail text
+overall_score float
+
+Spreadspoke
+-
+Unique_Identifier int PK
+schedule_date date
+schedule_season bigint
+schedule_week int
+schedule_playoff boolean
+team_home text
+score_home float
+score_away float
+team_away text
+team_favorite_id text
+spread_favorite float
+over_under_line float
+stadium text
+stadium_neutral boolean
+weather_temperature float
+weather_wind_mph float
+weather_humidity float
+weather_detail text
