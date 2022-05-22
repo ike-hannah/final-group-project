@@ -29,7 +29,7 @@ We will validate the data to see if there are fields and records that we can rem
 Since, this data also includes betting data information, that will also be used in our analysis in helping determine the winner of the games.
 
 ## Linear Regression Model
-For the purposes of our machine learning model, we opted to utilize a linear regression model. Most simply stated, linear regression is the comparison of relationship between two variables to identify a change in outcome. In our case, the purpose is to attempt to identify an effect of weather upon the outcome of NFL scores. The weather, as measured in degrees Fahrenheit, is our presumed explanatory variable, while total points scored in a game is our dependent variable. Creating a linear model will allow us to catch outliers in our data set and detect the overall trend of the dataset. 
+For the purposes of our machine learning model, we opted to utilize a multivariate linear regression model. The data was augmented to include a category with a binary indication of weather the team was playing at home or away. Then, the features were ranked and a 3d visualization was made.
 
 ## PgAdmin
 
@@ -45,7 +45,7 @@ We have used slack for communicating ideas within the team.
 ## Branches for Project:
 * jake_test_branch
 * aaron_branch
-* ike-test-branch
+* machine-learning-model
 * frank_test_branch
 
 ## Dashboard: 
