@@ -33,11 +33,6 @@ For the purposes of our machine learning model, we opted to utilize a multivaria
 
 ## PgAdmin
 
-Our relational database is below:
-
-![NFLdb_ERD](https://user-images.githubusercontent.com/95515322/169171575-e15b03a9-b050-4ea5-b506-b9083c803b09.png)
-
-
 
 ## Communiction Tool for Team
 We have used slack for communicating ideas within the team.
