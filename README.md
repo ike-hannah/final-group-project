@@ -33,6 +33,7 @@ For the purposes of our machine learning model, we opted to utilize a multivaria
 
 ## PgAdmin
 
+Joining the two csv file sp3.csv and frw_v1.csv so that we can have all of our data in one table and dataframe. 
 
 ## Communiction Tool for Team
 We have used slack for communicating ideas within the team.
