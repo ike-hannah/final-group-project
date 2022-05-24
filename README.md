@@ -4,7 +4,7 @@
 
 ## Overview of Final Project
 The goal of our project is to create a process that will help determine outcome of NFL games based upon the weather. 
-Using the data collected, from kaggle (https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data),  we will be able to determine who is favored to win, based the weather conditions during the game.
+Using the data collected, from kaggle (https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data) and Git (https://github.com/Nolanole/NFL-Weather-Project/blob/master/all_games_weather.csv), we will be able to determine who is favored to win, based the weather conditions during the game.
 This dataset includes game data from 1966 to 2022 and includes the following properties:
 * schedule date - date game was played
 * schedule season - schedule year
@@ -29,15 +29,11 @@ We will validate the data to see if there are fields and records that we can rem
 Since, this data also includes betting data information, that will also be used in our analysis in helping determine the winner of the games.
 
 ## Linear Regression Model
-For the purposes of our machine learning model, we opted to utilize a linear regression model. Most simply stated, linear regression is the comparison of relationship between two variables to identify a change in outcome. In our case, the purpose is to attempt to identify an effect of weather upon the outcome of NFL scores. The weather, as measured in degrees Fahrenheit, is our presumed explanatory variable, while total points scored in a game is our dependent variable. Creating a linear model will allow us to catch outliers in our data set and detect the overall trend of the dataset. 
+For the purposes of our machine learning model, we opted to utilize a multivariate linear regression model. The data was augmented to include a category with a binary indication of weather the team was playing at home or away. Then, the features were ranked and a 3d visualization was made.
 
 ## PgAdmin
 
-Our relational database is below:
-
-![NFLdb_ERD](https://user-images.githubusercontent.com/95515322/169171575-e15b03a9-b050-4ea5-b506-b9083c803b09.png)
-
-
+Joining the two csv file sp3.csv and frw_v1.csv so that we can have all of our data in one table and dataframe. 
 
 ## Communiction Tool for Team
 We have used slack for communicating ideas within the team.
@@ -45,7 +41,7 @@ We have used slack for communicating ideas within the team.
 ## Branches for Project:
 * jake_test_branch
 * aaron_branch
-* ike-test-branch
+* machine-learning-model
 * frank_test_branch
 
 ## Dashboard: 
